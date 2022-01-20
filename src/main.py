@@ -56,7 +56,7 @@ def scrapeStocks(targetUrl,screenshotName):
                     row.append(td.text)
                     #print(td.text)
                 elif td.has_attr('width') is True and td.has_attr('align') is True and td.div is None and td.has_attr('style') is False:
-                    row.append(float(td.text))
+                    row.append(td.text)
                     #print(td.text)
             if row:
                 writer.writerow(row)
