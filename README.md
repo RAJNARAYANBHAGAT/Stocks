@@ -1,4 +1,4 @@
-# jio-assignment
+# Stocks
 Scrape data from moneycontrol 
 
 Before the below step you have python installed on local system.
